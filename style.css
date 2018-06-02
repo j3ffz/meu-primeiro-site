@@ -1,0 +1,195 @@
+@charser "UTF-8"
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+/*ajuste do Cabeçario*/
+header#cabecalho h1{
+	font-family: 'Acme', sans-serif;
+	font-size: 60px;
+	color: #0F8D06;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+	margin-top: -20px;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
+}
+
+header#cabecalho h2{
+	font-family: 'Jua', sans-serif;
+	font-size: 30px;
+	color:#43CE38;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+header#cabecalho{
+	border-bottom: 1px solid black;
+}
+
+/*formatação do menu*/
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -15px;
+	left: 700px;
+}
+
+nav#menu li{
+	font-size: 20px;
+	color: #29E32F;
+	background-color: #014E04;
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+	border: 1px #000000 solid;
+
+}
+
+nav#menu h1{
+	display: none;}
+	/*corpo do site*/
+body#corpo{
+	background-color: #8FBC8F;
+}
+
+div#interface{
+	width: 900px;
+	background-color: #ffffff;
+	margin: 100px auto 0px auto;
+}
+
+div#interface h3#intro{
+	font-size: 30px;
+	font-family: Arial, sans-serif;
+	color: #2A713E;
+	margin-left: 75px;
+}
+
+div#interface h4#continua{
+	font-size: 23px;
+	font-family: Arial, sans-serif;
+	color: #2A713E;
+	margin-left: 15px;
+}
+
+div#interface ul#listah4{
+	font-size: 18px;
+	font-family:Arial, sans-serif;
+	color: #2A713E;
+	margin: 5px;
+	margin-top: -20px;
+
+}
+
+div#animeacao h5#acao{
+	font-size: 25px;
+	font-family:Arial, sans-serif;
+	color: #ffffff;
+	background-color: #2A713E;
+}
+
+
+/* Animes de Ação e Aventura*/
+div#animeacao p#acao{
+	margin-left: 340px;
+}
+
+.slot-anime{
+	width: 100%;
+	padding: 20px;
+	height: 340px;
+}
+
+.img{
+	width: auto;
+	float: left;
+}
+
+.discricao{
+	width: 50%;
+	float: left;
+	margin-left: 20px;
+
+}
+.desafio{
+	width: 20%;
+	float:left;
+}
+
+/****************** Titulos - incio *******************/
+
+#tit-gen-acao{
+	background-color: #2A713E
+}
+
+#tit-gen-com{
+	background-color: #fa4
+}
+
+.titulo-acao{
+	font-family: Arial;
+	color: #2A713E;
+}
+.titulo{
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.atributo{	
+	width: 100%;
+	float: left;
+}
+
+.atributo .titulo-atr{
+	font-weight: bold;
+	float: left;	
+}
+
+.atributo .valor-atr{
+	margin-left: 5px;
+	float: left;
+}
+
+.titulogen{
+	font-size: 25px;
+	font-family:Arial, sans-serif;
+	color: #00ff00;
+}
+
+
+.titulo-genero{
+	font-size: 25px;
+	font-family:Arial, sans-serif;
+	color: #ffffff;
+	
+}
+
+
+.titulo-genero h5{
+	font-size: 25px;
+	font-family:Arial, sans-serif;
+	color: #ffffff;
+}
+
+/*.titulo-genero p{
+	margin-left: 340px;	
+}*/
+
+
+/****************** Titulos - fim *******************/
+
+footer{
+	text-align: center;
+	clear: both;
+}
